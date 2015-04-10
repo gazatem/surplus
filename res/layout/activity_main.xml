@@ -7,20 +7,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.gazatem.android.surplus.MainActivity" >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/mesaj"/>
+ 
 
     <Button
         android:id="@+id/search_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/mesaj"
         android:layout_marginTop="91dp"
-        android:text="Search Button" />
+        android:text="@string/search_button" />
 
     <EditText
         android:id="@+id/search_text"
