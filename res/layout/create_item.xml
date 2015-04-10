@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/item_title_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_title" />
+
+    <EditText
+        android:id="@+id/item_location_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_title_editText"
+        android:ems="10"
+        android:hint="@string/location" />
+
+    <Button
+        android:id="@+id/item_submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save" />
+
+    <EditText
+        android:id="@+id/item_desc_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_location_editText"
+        android:ems="10"
+        android:hint="@string/tanim"
+        android:inputType="textMultiLine"
+        android:maxLines="8" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

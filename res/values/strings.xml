@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">surplus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_items">List Items</string>
+    <string name="search_items">Search Items</string>
+    <string name="add_item">Add Item</string>
+    <string name="search_button">Ara</string>
+    <string name="item_title">Başlık</string>
+    <string name="save">Kaydet</string>
+    <string name="tanim">Güzel bir tanım yazım</string>
+    <string name="location">Nerede?</string>
+    <string name="enter_title">Bir başlık girin</string>
+
+</resources>
